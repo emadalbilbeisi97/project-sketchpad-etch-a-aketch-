@@ -1,0 +1,49 @@
+/* coordinste body photo in body all screen */
+body{
+	background-image: url("https://images.pexels.com/photos/1268129/pexels-photo-1268129.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+	background-size: cover;
+	
+}	
+
+
+		/*coordinate the element id container */
+#container{
+	
+	margin: 10% auto;
+	border: 5px solid #333;
+	border-radius: 15px;
+	background-color: rgb(108, 112, 118 ,1);
+	box-shadow:  10px 10px 15px #dba745,
+					-10px -10px 15px #dba745;
+
+	}
+
+		/*coordinate the button click reset aboute */
+	#mybutton{
+		padding: 15px 18px;
+		font-size: 20px;
+		font-weight: bolder;
+		color: #2a2a2a;
+		border-radius: 15px;
+		border: 3px solid #525151;
+		background-color: #C0B9DD;   
+		color: #333;
+		cursor: pointer;
+		box-shadow: 3px 3px 12px #67708d,
+				-3px -3px 12px #67708d;
+		transition: background-color 0.9s ease-in;
+		position: relative;
+		top: 10%;
+		left: 43%;
+		margin: -37% auto;
+	}	
+
+	/*coordinate the button click reset aboute hover */
+	#mybutton:hover{
+
+		background-color: #2A324B;  
+		color: #ffffff;
+		border: 3px solid #ffffff;
+		box-shadow: 5px 5px 12px #67708d,
+				-5px -5px 12px #67708d;
+	}
